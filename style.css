@@ -1,0 +1,51 @@
+body{
+    color: rgba(107, 107, 107);
+    background-color: maroon;
+}
+
+.background {
+    background-color: antiquewhite;
+    /* <!--add it from the src file--> */
+    background-image: url(""); 
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+
+#new-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: goldenrod;
+    font-size: 22px;
+    position: relative;
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;  
+    border-radius: 20px;
+    box-shadow: 0 3px rgba(107, 107, 107);
+}
+
+#new-game-button:hover {
+    box-shadow: 0 1px rgba(107, 107, 107);
+    top: 2px;
+}
+
+#new-game-button:active {
+    box-shadow: 0 0 rgba(107, 107, 107);
+    top: 3px;
+}
+
+#placeholder-section{
+    background-color: darkgreen;
+}
+
+#placeholders {
+    letter-spacing: 10px;
+    font-size: 50px;
+
+}
+
+
